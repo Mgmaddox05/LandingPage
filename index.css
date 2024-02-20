@@ -10,5 +10,40 @@
 .header_links
 {
     color: white;
-    gap: 1em;
+    gap: 2em;
+    display: flex;
+    justify-content: space-between;
+    
 }
+
+.body
+{
+    display: flex;
+    background: #1F2937;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bodyheader{
+    display: flex;
+    color:white;
+    padding-left: 100px;
+    font-size: 40px;
+    position:absolute;
+    top:0;
+}
+ .bodyheader .bodytext
+{
+    font-size: 15px;
+    color: white;
+    padding-left: 150px;
+    padding-right: 1250px;
+    
+}
+.photo{
+    display: flex;
+    width: 200px;
+    height: 250px;
+    padding-right: 500px;
+}
+
